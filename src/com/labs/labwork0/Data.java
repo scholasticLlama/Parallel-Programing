@@ -3,9 +3,6 @@ package com.labs.labwork0;
 import java.util.Arrays;
 import java.util.Scanner;
 
-// E = A + B + C + D*(MA*MD)
-//ML = SORT(MF + MG*MH)
-//S= (O+P)*TRANS(MR * MT)
 public class Data {
     public static double[] inputVector(int N){
         return (N<=4)?enterVector(N):generateVector(N);
